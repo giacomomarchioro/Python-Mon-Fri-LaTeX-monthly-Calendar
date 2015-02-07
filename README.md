@@ -1,9 +1,10 @@
 # Python-Mon-Fri-LaTeX-monthly-Calendar
 Python LaTeX monthly Mon-Fri calenadr generator. This script is able to generate A4 landscape monthly clalendar Monday to Friday using pdfLaTeX. 
 
+![result](https://www.dropbox.com/s/lezs3gl6cn5656a/April2015.jpg?dl=0)
 
 ##Important Note
-**To run this script [pdfLaTeX](http://en.wikipedia.org/wiki/PdfTeX) is required**
+> ####**To run this script [pdfLaTeX](http://en.wikipedia.org/wiki/PdfTeX) is required**
 
 ##How it works.
 Inside the script there are two functions `print_month` and `print_year` simply pass the prameters to these two functions and they will produce a .tex file and a .pdf.
@@ -18,7 +19,7 @@ Python 2.7.6 (default, Mar 22 2014, 22:59:38)
 Type "help", "copyright", "credits" or "license" for more information.
 ```
 ```python
->>> from ClendarGenerator import print_month
+>>> from monfrical import print_month
 >>> print_month(2016,2)
 ```
 
@@ -31,6 +32,6 @@ user@user: path$ python
 Python 2.7.6 (default, Mar 22 2014, 22:59:38) 
 [GCC 4.8.2] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
->>> from ClendarGenerator import print_month
+>>> from monfrical import print_month
 >>> print_year(2015)
 ```
